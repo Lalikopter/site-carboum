@@ -1,0 +1,159 @@
+* {
+    
+}
+
+body{
+    color:rgb(50, 5, 26);
+   background-color:rgb(148, 111, 135);
+}
+
+h1,h2,h3{
+  font-family: "Abril Fatface", serif;
+}
+
+main{
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: rgb(227, 177, 177);
+    padding:1em;
+  }
+
+.bigbarre{
+  background-color: rgb(200, 112, 127);
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.barre{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align:center;
+  width:60%;
+  
+  margin-right:auto;
+  margin-left:auto;
+  padding:10px;
+}
+
+.barre a{
+  text-decoration:none;
+  color:rgb(66, 9, 40);
+  font-size:20px;
+  font-weight: bolder;
+}
+
+#welcome{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+  max-width:700px;
+
+}
+
+#pointeur{
+  width:100px;
+  margin:0;
+}
+
+#retourner_haut{
+  width:100px;
+  position:fixed;
+  bottom:15px;
+  right:15px;
+  background-color:pink;
+  border-radius: 25%;
+  transition:0.3s;
+}
+#retourner_haut:hover{
+   transform: scale(1.1);
+}
+
+header{
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.bloc-galerie h3{
+  color:rgb(197, 109, 124);
+}
+
+.bloc-galerie{
+  width:20%;
+  display:inline-block;
+  text-align:center;
+  padding:100px;
+  border-radius:25%;
+  background-color: black;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./image/fond-bouton.jpeg');
+}
+
+.bloc-galerie a{
+  text-decoration:none;
+  text-align:center;
+}
+
+.galerie-zinzin{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    position:fixed;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    opacity: 100%;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #delete{
+    
+    background-color:pink;
+    border-radius: 25%;
+    padding: 20px;
+  }
+
+  .menu-burger{
+    position:fixed;
+    top: 10px;
+    left:10px;
+
+  }
